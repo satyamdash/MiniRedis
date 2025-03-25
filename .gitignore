@@ -1,0 +1,29 @@
+# Build artifacts
+mini-redis
+*.o
+*.obj
+*.out
+*.exe
+
+# IDE specific files
+.vscode/
+.idea/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Database files
+database.aof
+database.aof.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Debug files
+*.dSYM/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates 
