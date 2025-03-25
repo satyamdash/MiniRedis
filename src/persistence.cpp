@@ -2,6 +2,7 @@
 #include <fstream>
 #include <sstream>
 #include <iostream>
+#include <vector>
 
 const std::string Persistence::AOF_FILE = "database.aof";
 

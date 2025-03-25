@@ -1,17 +1,57 @@
-# Build artifacts
-mini-redis
+# Build directories
+build/
+cmake-build-*/
+out/
+Debug/
+Release/
+x64/
+Win32/
+
+# Compiled Object files
+*.slo
+*.lo
 *.o
 *.obj
-*.out
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
 *.exe
+*.out
+*.app
+mini-redis
 
 # IDE specific files
 .vscode/
 .idea/
-*.sln
-*.vcxproj
-*.vcxproj.filters
-*.vcxproj.user
+*.swp
+*.swo
+*~
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
 
 # Database files
 database.aof
@@ -19,6 +59,11 @@ database.aof.tmp
 
 # System files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 
 # Debug files
@@ -26,4 +71,8 @@ Thumbs.db
 *.suo
 *.user
 *.userosscache
-*.sln.docstates 
+*.sln.docstates
+
+# Logs
+*.log
+logs/
