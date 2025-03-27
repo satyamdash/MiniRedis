@@ -110,6 +110,9 @@ QUIT
 4. Push to the branch
 5. Create a new Pull Request
 
+You can also Pull Image from docker and run with this command:
+docker run -d -p 6379:6379 --name my-mini-redis sattu18/mini-redis
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details. 
